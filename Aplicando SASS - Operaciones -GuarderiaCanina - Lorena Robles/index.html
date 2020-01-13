@@ -1,92 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- meta tags requeridos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--  CSS -->
     <link href="css/css.css" rel="stylesheet" type="text/css" >
-    <title>RIJ</title>
+    <title>Refugio</title>
   
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
- 
-<style type="text/css">
+ <style type="text/css">
 
-
-
-a:link{ color: black; text-decoration: none ; font-weight: bold;}
-
-a:active{ color: #b413d4; text-decoration: none;  font-weight: bold;}
-
-a:visited{ color:#29056b; text-decoration: none ; font-weight: bold;}
-
-a:hover{ color: rgb(9, 56, 9); text-decoration: underline; font-weight: bold;}
-
-</style>
+  a:link{ color: black; text-decoration: none ; font-weight: bold;}
+  
+  a:active{ color: #b413d4; text-decoration: none;  font-weight: bold;}
+  
+  a:visited{ color:#29056b; text-decoration: none ; font-weight: bold;}
+  
+  a:hover{ color: rgb(9, 56, 9); text-decoration: underline; font-weight: bold;}
+  
+  </style>
 
 </head>
-<body  >
-     <header class="menu">
-            <div class="cont_logo" >
-              <img src="imagenes/logo.jpg" alt="" class="logo">
-            </div >  
-                <ul>
-                      <li><a href="quienesSomos.html" target="_black" >¿QUIENES SOMOS?</a></li>
-                      <li><a href="adoptar.html" target="_black">ADOPTAR</a></li>
-                      <li><a href="apadrinar.html" target="_black">APADRINAR</a>
-                    <ul>
-                      <li><a href="">Subitem</a></li>
-                      <li><a href="">Subitem</a></li>
-                    </ul>
+<body class= "header" >
+               <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+                  <nav class="navbar  navbar-expand-lg navbar-light " style="background-color: #e3f2fd;" >
+                  <a class="navbar-brand" href="#" >
+                    <img src="imagenes/logo.jpg" alt="logorefugio" class="logo">
+                  </a>
+                
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent"  >
+                    <ul class="navbar-nav mr-auto" >
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                       </li>
-                      <li><a href="formulario.html" target="_black" >VOLUNTARIO</a></li>
-                </ul>                 
-      </header>
+                      <li class="nav-item" >
+                        <a class="nav-link"  href="quienesSomos.html" target="_black">¿QUIENES SOMOS?</a>
+                      </li>
+                      <li class="nav-item" >
+                        <a class="nav-link"  href="adoptar.html" target="_black">ADOPTAR</a>
+                      </li>
+                      <li class="nav-item" >
+                        <a class="nav-link"  href="apadrinar.html" target="_black">APADRINAR</a>
+                      </li>
+                      <li class="nav-item" >
+                        <a class="nav-link"  href="formulario.html" target="_black">VOLUNTARIO</a>
+                      </li>
+                      
+                     </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </nav>
 
+   
+
+              <br>
+              </br>
+
+                <main class="container">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 ">
+                        <center>
+                          <font color="GREEN" face="Comic Sans MS,arial">        
+                            <H2>BIENVENIDO AL REFUGIO ISLA JORDAN</H2>
+                          </font>
+                            <h3> Rescatamos , recuperamos y damos en adopción</h3>
+                          <br></br>
+                            <input id="bot2"  type="submit" class="boton_1" value=" QUIERO DONAR">     
+                        </center>      
+                    </div> 
+                  </div>                   
+               </main>
+
+      
+  <br></br>
+
+              <!-- Carrusel -->
+              <div class="container-lg">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="imagenes/home.jpg" class="d-block w-100" alt="portada">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/cucha.jpg" class="d-block w-100" alt="nuevascuchas">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/vieji.jpg" class="d-block w-100" alt="viejitos">
+                          </div>
+                        </div>
+                        
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Siguiente</span>
+                        </a>
+                  </div>
+              </div>
 
       </br><br>
       </br><br>
 
-        <div class="bajar"> 
-          <!-- Con el DIV, divido secciones/porciones de código -->
-          
-          <table align="center"> <!-- inicio de tabla -->
-            <tr  > <!-- table row - fila de tabla -->  
-              <td width=600 align="right">  <!-- col 1 -->
-                <img src="imagenes/home.JPG" alt="alternativo" width=400>
-              </td> <!-- table data - informacion de tabla (columnas) col 1 -->          
-              <td  style= "background-color: rgb(184, 182, 182);" >  <!-- col 2 -->
-                  <center>
-                  <font color="GREEN" face="Comic Sans MS,arial">        
-                     <H2>BIENVENIDO AL REFUGIO ISLA JORDAN</H2>
-                  </font>
-                      <h3> Rescatamos , recuperamos y damos en adopción</h3>
-                      <br></br>
-                      <input id="bot2"  type="submit" class="boton_1" value=" QUIERO DONAR">           
-                 </center>
-              </td>              
-            </tr>
-          </table>       
-        </div>
 
-      <br></br>
-      <br></br>
-      <br><br>
+     
       <br>
 
-        <div style="text-align: center;">
+        <div class="row" style="text-align: center;">
           <br>
           <br>
-           
+          <div class="col-sm-12">
               <H2 class="header2">VENÍ A CONOCER Y RECORRÉ TODO EL PREDIO </H2> 
             
                 <H3 class="header3">Los que vienen por primera vez se van con un ticket gratis de amistad de por vida</H3>
          
           <br></br>
 
-            <video  width="400" controls>
+            <video  width="600" controls>
               <source src="imagenes/visitar.mp4" type="video/mp4">
             </video>
-        
+          </div>
         </div>
 
           <br></br>
@@ -101,15 +148,12 @@ a:hover{ color: rgb(9, 56, 9); text-decoration: underline; font-weight: bold;}
     
   </font>
 
-        <footer >
-                  
-            <table align="center" width="100%"> <!-- inicio de tabla -->
-              <tr align="center"> <!-- table row - fila de tabla -->
-                <td width=200 align="center">
-                    <img src="imagenes/logo.jpg" alt="Logo"  width="150 "height="143"   >
-                </td> <!-- table data - informacion de tabla (columnas) col 1 --> 
-                
-                <td width=200 align="center"> 
+        <footer  >
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <img src="imagenes/logo.jpg" alt="" class="logo"  >  
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
                   <h4>CONTACTANOS</h4>
                   <li > 
                       "Directora:"
@@ -119,31 +163,44 @@ a:hover{ color: rgb(9, 56, 9); text-decoration: underline; font-weight: bold;}
                       </strong> 
                     "E-mail:"                
                     <a href="mailito:info@refugioij.org">info@refugioij.org </a>                              
-                    </li>                
-                </td> 
-                <td width=200 align="center">
+                    </li> 
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
                   <h4 > DÓNDE ESTAMOS </h4>
-                    <li >
-                      Nos encontramos en  La Isla Jordan - Cipolletti - Río Negro.
-                    </li>
-                </td>             
-                <td width=200 align="center"> 
+                  <li >
+                    Nos encontramos en  La Isla Jordan - Cipolletti - Río Negro.
+                  </li>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
                   <h4 >NEWSLETTER </h4>
-                    <li>
-                      Suscribite para enterarte de las novedades
-                    </li>
-                    <form action="">
-                      <label for="correo">Tu e-mail</label>
-                        <input type="email" id="correo" value="tu email" required />      
-                        <!-- botones para enviar, borrar información -->
-                        <input type="submit" />
-                      </form>   
-                </td> 
-              </tr>           
-            </table>      
-            <p>© 2019 RIS. RIS 2019 - Derechos Reservados </p>
-
+                  <li>
+                    Suscribite para las novedades
+                  </li>
+                  <form action="">
+                    <label for="correo"></label>
+                      <input type="email" id="correo" value="Tu email" required />      
+                      <!-- botones para enviar, borrar información -->
+                      <input type="submit" />
+                    </form>  
+                </div>
+                      
+          
+          </div>  
+       
+          
+            <p>   © 2020 RIS. RIS 2019 - Derechos Reservados  </p>
+      
+        
+       
       </footer>
+
+      
+      
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    <!-- JavaScript opcional -->
+<!-- aqui podriamos poner los enlaces de JavaScript si los necesitariamos -->
 </body>
 
 </html>

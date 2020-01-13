@@ -15,6 +15,12 @@
   flex-wrap: wrap;
 }
 
+CSS
+.header .navbar {
+  background-color: transparent !important;
+}
+
+
 /* line 23, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .header2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -25,6 +31,14 @@
   font-weight: bold;
 }
 
+.header2centro {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #29056b;
+  font-size: 30px;
+  line-height: normal;
+  text-align: center;
+  font-weight: bold;
+}
 /* line 32, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .header2bis {
   font-family: Arial, Helvetica, sans-serif;
@@ -112,11 +126,11 @@
   font-weight: 200;
   font-size: 20px;
   font-style: italic;
-  color: #29056b;
-  background-color: #82b085;
+  color:#54b3eb;
+  background-color: #0f25a1e3;
   border-radius: 15px;
-  border: 4px double #29056b;
-  transition: font-size 1s;
+  border: 4px;
+  /*transition: font-size 1s;*/
 }
 
 /* line 129, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
@@ -124,8 +138,8 @@
   text-decoration: none;
   font-size: 22px;
   cursor: pointer;
-  animation: animame 1s linear 1s infinite alternate;
-  transform: rotateX(45deg);
+/*animation: animame 1s linear 1s infinite alternate;
+  transform: rotateX(45deg);*/
 }
 
 /* line 141, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
@@ -153,6 +167,10 @@ ol, ul, label, fieldset {
   font-weight: 40;
 }
 
+ .field {
+   columns: 50;
+}
+
 /* line 167, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 header {
   background-color: transparent;
@@ -163,9 +181,10 @@ header {
 
 /* line 176, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 footer {
-  background: gray;
+  background:#e3f2fd;
   /*#CCCCCC;*/
-  color: aliceblue;
+  color: rgb(118, 120, 121);
+ font-weight: bold;
   clear: both;
   text-align: center;
   width: 100%;
@@ -181,9 +200,11 @@ footer {
 
 /* line 192, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 footer a {
+  
   /*background-image: url(/ima);*/
   /*text-decoration: none;*/
   color: #444;
+
 }
 
 /* line 197, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
@@ -266,9 +287,9 @@ body {
 }
 
 /* line 285, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
-a:hover {
+/*a:hover {
   background-color: RoyalBlue;
-}
+}*/
 
 /* line 290, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 ul {
@@ -288,11 +309,11 @@ ul li {
 
 /* line 302, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 ul li a {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   display: block;
   color: white;
-  background-color: SkyBlue;
+  /*background-color: SkyBlue;*/
   padding: 10px;
   text-transform: uppercase;
   text-decoration: none;
@@ -390,3 +411,14 @@ HTML CSSResult
   }*/
 
 /*# sourceMappingURL=probandocss.css.map */
+
+
+.formulario1 {
+  background-color: lightblue ;
+  margin: 0 auto;
+  width : 600px;
+padding:10px;
+border-radius: 30px;
+
+}
+

@@ -6,6 +6,11 @@
 <meta charset="UTF-8">
 <link href="css/css.css" rel="stylesheet" type="text/css" >
 
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
 <style type="text/css">
 
   a:link{ color: black; text-decoration: none ; font-weight: 300;font-weight: bold;}
@@ -19,161 +24,186 @@
   </style>
 </head>
 
-<body>
+<body class= "header" >
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+     <nav class="navbar  navbar-expand-lg navbar-light " style="background-color: #e3f2fd;" >
+     <a class="navbar-brand" href="#" >
+       <img src="imagenes/logo.jpg" alt="logorefugio" class="logo">
+     </a>
+   
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+   
+     <div class="collapse navbar-collapse" id="navbarSupportedContent"  >
+       <ul class="navbar-nav mr-auto" >
+         <li class="nav-item active">
+           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item" >
+           <a class="nav-link"  href="quienesSomos.html" target="_black">¿QUIENES SOMOS?</a>
+         </li>
+         <li class="nav-item" >
+           <a class="nav-link"  href="adoptar.html" target="_black">ADOPTAR</a>
+         </li>
+         <li class="nav-item" >
+           <a class="nav-link"  href="apadrinar.html" target="_black">APADRINAR</a>
+         </li>
+         <li class="nav-item" >
+           <a class="nav-link"  href="formulario.html" target="_black">VOLUNTARIO</a>
+         </li>
+         
+        </ul>
+       <form class="form-inline my-2 my-lg-0">
+         <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+       </form>
+     </div>
+   </nav>
 
-    <header class="menu ">
-        <div class="cont_logo">
-         <img src="imagenes/logo.jpg" alt="" class="logo">
-       </div >  
-         <ul>
-           <li><a href="quienesSomos.html" target="_black" >¿QUIENES SOMOS?</a></li>
-           <li><a href="adoptar.html" target="_black">ADOPTAR</a></li>
-           <li><a href="apadrinar.html" target="_black">APADRINAR</a>
-               <ul>
-                   <li><a href="">Subitem</a></li>
-                   <li><a href="">Subitem</a></li>
-               </ul>
-           </li>
-           <li><a href="formulario.html" target="_black" >VOLUNTARIO</a></li>
-       </ul>
- 
-       
-     
-     </header>
+  
+   <br>
+  </br>
 
-     <div class="bajar">
 
-        <table border=0 align="center"  >
-            <tr>
-                
-                <td colspan=20 align="center">
-                    
-                   
-                    <h2 class="header2">ADOPCIONES</h2>
-                    
-                    <br> </br>
-                    <img src="imagenes/adoptarportada.jpg" class="t_escalar1-2" alt="alternativo" height="300">
-                    <br> </br>
-                                      
-                </td>
-        
-            </tr>
-        <BR></BR>
-        <BR></BR>        
-
-            <tr id="seccion">
-                    
-                <td width=140></td>
-                <td>                        
-                    <h2 class="header2">Equipo Refugio Isla Jordan
-                        Todos tiramos para el mismo lado.
-                        Vení a visitarnos para ver como trabajamos y saber más sobre nuestra fundación.
-                    </h2>
-                    <br> </br>
-                        <p class="parrafo"> Hoy viven en el Refugio más de 200 animales. Muchos de ellos esperan un hogar y ese hogar puede ser el tuyo! Todos nuestros animales están vacunados, desparasitados y esterilizados, y te invitamos a que los conozcas: si estás pensando en adoptar un perro o un gato, ¡no te quedes solo con las fotos! Vení a visitarnos con tu familia, conocé a los perros y gatos en acción y con sus características particulares e interactuá con ellos. Tenemos algunos cachorritos que estarán felices de acompañar el crecimiento de una familia y otros más grandes que ya aprendieron dónde hacer sus necesidades: todos te estarán eternamente agradecidos y llenaran tu vida y la de tu familia de felicidad y amor incondicional.Nos encontramos en Cipolletti,  Provincia de Río Negro.
-                        </p>
-                    
-                </td>
-
-                <td width=40></td>
-                <td>
-                    <br> </br>
-                    <img src="imagenes/adoptar.jpg" alt="alternativo" width=250>
-                </td>
-                <td width=25>                   
-                </td>
-            </tr>
-        </table>
-    <Br></Br>
-
-        <center>
-            
-             <h2 class="header2">
-                Horario para venir a conocer y adoptarlos
-             </h2>
-               
+   <main class="container">
+    <div class="row">
       
+                    <div class="col-sm-12 col-md-12 col-lg-12 ">
+                          <h1 class="header2">ADOPTAR</h1>
+                            <br>
+                            </br>
 
-    <table border="1" width=800 align="center">
-        <tbody>
-        <tr>        
-              <td></td> <!-- table data - informacion de tabla (columnas) col 1 --> 
-              <td>Lunes</td> <!-- col 2 -->
-              <td>Miércoles</td><!-- col 3 -->
-              <td>Viernes</td><!-- col 4 -->                                   
-        </tr>
-        <tr>
-        <td>JUAN</td>
-        <td>15:00 hs</td>
-        <td>16:00  hs</td>
-        <td>15:00 hs</td>
-        </tr>
-        <tr>
-        <td>ANA</td>
-        <td>9:00 hs</td>
-        <td>11:00 hs</td>
-        <td>10:00 hs</td>
-        </tr>
-        <tr>
-        <td>EXEQUIEL</td>
-        <td>17:30 hs</td>
-        <td>12:00 hs</td>
-        <td>17:00 hs</td>
-        </tr>
-        </tbody>
-    </table>
+                            <div align = "center" >
+                                <img src="imagenes/adoptarportada.jpg" align="center" alt="adoptar" class="t_escalar1-2" height="300"   >
+                                <br></br>
+                                <br></br>
+                              
+                                  <h2 class="header2" >
+                                    Equipo Refugio Isla Jordan
+                                  Todos tiramos para el mismo lado.
+                                  Vení a visitarnos para ver como trabajamos y saber más sobre nuestra fundación.
+                                  </h2>
+                            </div>
+                    
+                    </div>
+
+<BR></BR>
+<BR></BR>   
+
+                    <div class="col-sm-6 col-md-6 col-lg-8">
+                            <br> </br>
+                            <p class="parrafo"> Hoy viven en el Refugio más de 200 animales. Muchos de ellos esperan un hogar y ese hogar puede ser el tuyo! Todos nuestros animales están vacunados, desparasitados y esterilizados, y te invitamos a que los conozcas: si estás pensando en adoptar un perro o un gato, ¡no te quedes solo con las fotos! Vení a visitarnos con tu familia, conocé a los perros y gatos en acción y con sus características particulares e interactuá con ellos. Tenemos algunos cachorritos que estarán felices de acompañar el crecimiento de una familia y otros más grandes que ya aprendieron dónde hacer sus necesidades: todos te estarán eternamente agradecidos y llenaran tu vida y la de tu familia de felicidad y amor incondicional.Nos encontramos en Cipolletti,  Provincia de Río Negro.
+                            </p>
+                    </div>  
+
+                    <div class="col-sm-6 col-md-6 col-lg-2">
+                            <br> </br>
+                            <img src="imagenes/adoptar.jpg" alt="alternativo" width=250>            
+                    </div>
+
+                   
+            <div class="col-sm-12 col-md-12 col-lg-12 ">
+                <center>
+                  <br></br>
+                    <h2 class="header2">
+                        Horario para venir a conocer y adoptarlos
+                    </h2>
+                      
+              <br></br>
+
+                    <table border="1" width=800 align="center">
+                        <tbody>
+                        <tr>        
+                              <td></td> <!-- table data - informacion de tabla (columnas) col 1 --> 
+                              <td>Lunes</td> <!-- col 2 -->
+                              <td>Miércoles</td><!-- col 3 -->
+                              <td>Viernes</td><!-- col 4 -->                                   
+                        </tr>
+                        <tr>
+                        <td>JUAN</td>
+                        <td>15:00 hs</td>
+                        <td>16:00  hs</td>
+                        <td>15:00 hs</td>
+                        </tr>
+                        <tr>
+                        <td>ANA</td>
+                        <td>9:00 hs</td>
+                        <td>11:00 hs</td>
+                        <td>10:00 hs</td>
+                        </tr>
+                        <tr>
+                        <td>EXEQUIEL</td>
+                        <td>17:30 hs</td>
+                        <td>12:00 hs</td>
+                        <td>17:00 hs</td>
+                        </tr>
+                        </tbody>
+                    </table>
 
 
-</center>
-        <BR></BR>
-        <BR></BR>
-        <BR></BR>
+                  </center>
+                  <br></br>
+                </div>
+
+              
+        
         <p> <a href="index.html" class="anterior" title="Ir la página anterior">Volver a página principal</a></p>
 
-      </div>
+      </main>
+
+
+      <BR></BR>
+       
         
-        <footer id="pie" class="bajar">
-                  
-                <table align="center" width="100%"> <!-- inicio de tabla -->
-                  <tr align="center"> <!-- table row - fila de tabla -->
-                    <td width=200 align="center">
-                        <img src="imagenes/logo.jpg" alt="Logo"  width="150 "height="143"   >
-                    </td> <!-- table data - informacion de tabla (columnas) col 1 --> 
-                    
-                    <td width=200 align="center"> 
-                      <h4>CONTACTANOS</h4>
-                      <li > 
-                          "Directora:"
-                          <strong>
-                              Dra. Juana Peréz
-                              <br>
-                          </strong> 
-                        "E-mail:"                
-                        <a href="mailito:info@refugioij.org">info@refugioij.org </a>                              
-                        </li>                
-                    </td> 
-                    <td width=200 align="center">
-                      <h4 > DÓNDE ESTAMOS </h4>
-                        <li >
-                          Nos encontramos en  La Isla Jordan - Cipolletti - Río Negro.
-                        </li>
-                    </td>             
-                    <td width=200 align="center"> 
-                      <h4 >NEWSLETTER </h4>
-                        <li>
-                          Suscribite para enterarte de las novedades
-                        </li>
-                        <form action="">
-                          <label for="correo">Tu e-mail</label>
-                            <input type="email" id="correo" value="tu email" required />      
-                            <!-- botones para enviar, borrar información -->
-                            <input type="submit" />
-                          </form>   
-                    </td> 
-                  </tr>           
-                </table>      
-                <p>© 2019 RIS. RIS 2019 - Derechos Reservados </p>
-    
-          </footer>
+        <footer  >
+          <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <img src="imagenes/logo.jpg" alt="logorefugio" class="logo"  >  
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h4>CONTACTANOS</h4>
+              <li > 
+                  "Directora:"
+                  <strong>
+                      Dra. Juana Peréz
+                      <br>
+                  </strong> 
+                "E-mail:"                
+                <a href="mailito:info@refugioij.org">info@refugioij.org </a>                              
+                </li> 
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h4 > DÓNDE ESTAMOS </h4>
+              <li >
+                Nos encontramos en  La Isla Jordan - Cipolletti - Río Negro.
+              </li>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h4 >NEWSLETTER </h4>
+              <li>
+                Suscribite para las novedades
+              </li>
+              <form action="">
+                <label for="correo"></label>
+                  <input type="email" id="correo" value="Tu email" required />      
+                  <!-- botones para enviar, borrar información -->
+                  <input type="submit" />
+                </form>  
+            </div>                     
+      
+      </div>  
+           
+        <p>   © 2020 RIS. RIS 2019 - Derechos Reservados  </p>
+        
+  </footer>
+
+
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+              <!-- JavaScript opcional -->
+          <!-- aqui podriamos poner los enlaces de JavaScript si los necesitariamos -->
+
 </body>
 </html>
