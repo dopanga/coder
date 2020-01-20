@@ -96,9 +96,9 @@ CSS
   font-size: 25px;
   font-style: italic;
   color: #29056b;
-  background-color: #82b085;
+  background-color: #e3f2fd;
   border-radius: 15px;
-  border: 4px double #29056b;
+  border: 4px double #0099CC;
   transition: font-size 0.5s;
 }
 
@@ -126,10 +126,10 @@ CSS
   font-weight: 200;
   font-size: 20px;
   font-style: italic;
-  color:#54b3eb;
-  background-color: #0f25a1e3;
+  color:#29056b;
+  background-color: #e3f2fd;
   border-radius: 15px;
-  border: 4px;
+  border: 2px solid #0099CC;
   /*transition: font-size 1s;*/
 }
 
@@ -150,7 +150,15 @@ CSS
   transition-timing-function: linear;
 }
 
+/* .boton_2:hover{
+    
+	text-decoration: none;
+	font-size: 22px;
+	cursor: pointer;
+	animation: animame 1s linear 1s infinite alternate;
+	transform: rotateX(45deg);
 
+  }*/
 /* line 160, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 ol, ul, label, fieldset {
   color: #29056b;
@@ -222,11 +230,42 @@ footer .links:hover {
   background: #E74C3C;
 }
 
+/*footer a {
+   
+		text-decoration: none;
+		color: #444;
 
+		&:hover {
+			background:#E74C3C;
+		}
+ } */
+/*footer .links {
+	background:#c0392b;
+	display:flex;
+	flex-wrap:wrap;
+
+	&:hover {
+		background:#E74C3C;
+	}
+}*/
+/*footer .links  {
+	flex-grow:1;
+ 
+	color:#fff;
+	padding:10px;
+	text-align: center;
+	text-decoration:none;
+}
+ 
+footer .links a:hover {
+	background:#E74C3C;
+}
+*/
 /* line 255, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 body {
-  background-color: rgba(7, 181, 255, 0.5);
-  background-image: url(../imagenes/fondo.jpg);
+  
+  background-color: rgba(7, 181, 255,0.1);
+  background-image: url(../imagenes/fondoop.jpg);
 }
 
 /* line 266, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
@@ -329,6 +368,16 @@ img.logo {
   left: 600px;
 }
 
+
+div.container {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+  }
+  img {
+  width: 70%;
+  height: auto;
+  }
 /* line 369, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .cont_logo {
   text-align: center;
@@ -348,7 +397,11 @@ HTML CSSResult
   cursor: pointer;
 }
 
-
+/* .t_agrandeTexto:hover {
+	font-size: 32px;
+	cursor: pointer;
+	
+  }*/
 /* line 393, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .t_escalar1-2 {
   transition: all 2s;
