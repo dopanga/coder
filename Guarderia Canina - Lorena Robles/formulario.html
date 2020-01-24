@@ -30,7 +30,7 @@
 </head>
 <body class= "header" >
 	<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-	   <nav class="navbar  navbar-expand-lg navbar-light " style="background-color: #e3f2fd;" >
+	   <nav class="navbar  navbar-expand-lg navbar-light " style="background-color: #b5c4ce; " >
 	   <a class="navbar-brand" href="#" >
 		<img src="imagenes/logo.jpg" alt="logorefugio" class="logo">
 	   </a>
@@ -81,74 +81,85 @@
 								<li>COMPROMISO Y AMOR PARA ELLOS.</li>
 							</ol>
 						</div>
-						<br> </br>
-					<div class="col-sm-12 col-md-12 col-lg-12 ">
-
-						<h3 class="header2"> Por favor completá este formulario: </h3>
+									
+												
+			
 					
-					</div>
+						<div class="container">
+							<form action="action_page.php">
+							  <div class="row">
+								<div class="col-25">
+								  <label for="Nombre">Nombre y Apellido</label>
+								</div>
+								<div class="col-75">
+								  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..">
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="col-25">
+								  <label for="lname">Edad</label>
+								</div>
+								<div class="col-75">
+								  <input type="text" id="edad" name="edad" placeholder="Edad">
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="col-25">
+								  <label for="country">En que tarea te gustaria anotarte</label>
+								</div>
+								<div class="col-75">
+								  <select id="country" name="actividades" >
+									<option value="comida">Potes de agua y dar de comer</option>
+									<option value="limpiar">Limpieza de caniles</option>
+									<option value="traslados">Traslados</option>
+									<option value="transito">Transito</option>
+								  </select>
+								</div>
+							  </div>
+							  <div class="row">
+									<div class="col-25">
+									<label for="subject">Comentarios</label>
+									</div>
+									<div class="col-75">
+									<textarea id="subject" name="subject" placeholder="Tu opinión nos interesa.." style="height:200px"></textarea>
+									</div>
+							  </div>
+							  <div class="row">
+									
+									<input type="submit" value="Enviar"  >
+									
+								</div>
+							  
+							</form>
+						  </div>
 
-					<div class="col-sm-12 col-md-12 col-lg-3 ">
-
-					</div>
-					<div class="col-sm-12 col-md-12 col-lg-3 ">
-							<br></br>
 
 
-											<form  class="formulario1" name="formulario1" method="post" action="data.php"  >
-											<fieldset id="datos_personales" >
-												<legend class="header2" >Datos personales</legend>
-													<label for="nombre">Nombre:</label><br>
-													<input type="text" name="nombre" id="nombre" ><br>
-													<label for="apellidos">Apellidos:</label><br>
-													<input type="text" name="apellidos" id="apellidos" class="field"><br>
-													<label for="dni">DNI:</label><br>
-													<input type="text" name="dni" id="dni" maxlength="9" class="field"><br>
-													<label for="edad">Edad:</label><br>
 
-													<input type="text" name="edad" id="edad" size="2" maxlength="2" class="field"><br>
-													<label for="sexo">Sexo:</label><br>
-													<select id="sexo" name="sexo">
-													<option value="X" selected="selected">...</option>
-													<option value="M">Másculino</option>
-													<option value="F">Femenino</option>
-														</select>
-											</fieldset>
-											<fieldset id="info">
-												<legend>En que tarea te gustaría anotarte</legend>
-													<input type="radio" name="comida" value="2" checked="checked">Potes de agua y dar de comer<br>	
-													<input type="radio" name="limpiar" value="1">Limpieza de caniles<br>
-													<input type="radio" name="traslados" value="3">Traslados<br>
-													<input type="radio" name="transito" value="4">Tránsito en la semana
-													</fieldset>
-											<fieldset id="grupo_opinion">
-												<legend>Tu opinión</legend>
-												<textarea id="opinion" name="opinion" rows="10" cols="50"></textarea>
-											</fieldset>
-										<br> </br>
-											<input id="bot2" type="reset" class="boton_2"   value="Borrar formulario">&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="boton_2" value="Enviar">
-										</form>
-							</div>
-							
-							<div class="col-sm-12 col-md-4 col-lg-3 ">
 
-							</div>
-							
- <br>
-						</br>
+
+
+
+
+
+
+
+
 						
 	  
 	</div>
+	
 	
 	<br></br>
 	<p> <a href="index.html" class="anterior" title="Ir la página anterior">Volver a página principal</a></p>
 	 </main>
 	 
-
+	 <br></br>
 
 	<footer  >
 		<div class="row">
 		  <div class="col-sm-12 col-md-12 col-lg-3">
+			  
 			<img src="imagenes/logo.jpg" alt="logorefugio" class="logo"  >  
 		  </div>
 		  <div class="col-sm-12 col-md-12 col-lg-3">
@@ -169,7 +180,7 @@
 			  Nos encontramos en  La Isla Jordan - Cipolletti - Río Negro.
 			</li>
 			<a href="https://goo.gl/maps/4V2eQszsjFwmAeu46" target="_blank" >
-				<img alt="mapa" src="imagenes/mapa.jpg" width="100%"  >
+				<img  src="imagenes/mapa.jpg"   alt="mapa" width="100%" >
 			  </a>
 		  </div>
 		  <div class="col-sm-12 col-md-12 col-lg-3">
@@ -178,11 +189,11 @@
 			  Suscribite para las novedades
 			</li>
 			<form action="">
-			  <label for="correo"></label>
-				<input type="email" id="correo" value="Tu email" required />      
-				<!-- botones para enviar, borrar información -->
-				<input type="submit" />
-			  </form>  
+				<label for="correo"></label>
+				  <input type="email" id="correo" value="Tu email" required />      
+				  <!-- botones para enviar, borrar información -->
+				  <input type="submit" />
+				</form>  
 		  </div>                     
 	
 	</div>  

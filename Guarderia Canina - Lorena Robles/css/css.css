@@ -15,6 +15,13 @@
   flex-wrap: wrap;
 }
 
+h4, h3 {
+  font-family: Amatic SC;
+  color: #2c393d;
+
+}
+
+
 CSS
 .header .navbar {
   background-color: transparent !important;
@@ -23,16 +30,16 @@ CSS
 
 /* line 23, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .header2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Amatic SC;
   color: #29056b;
-  font-size: 30px;
+  font-size: 40px;
   line-height: normal;
   text-align: center;
   font-weight: bold;
 }
 
 .header2centro {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Amatic SC;
   color: #29056b;
   font-size: 30px;
   line-height: normal;
@@ -41,7 +48,7 @@ CSS
 }
 /* line 32, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .header2bis {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Amatic SC;
   color: #29056b;
   font-size: 30px;
   line-height: normal;
@@ -50,12 +57,13 @@ CSS
 
 /* line 40, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .header3 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Amatic SC;
   color: darkslategrey;
   font-size: 20px;
   line-height: inherit;
   text-align: center;
 }
+
 
 /* line 49, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .anterior {
@@ -84,6 +92,8 @@ CSS
   line-height: inherit;
   text-align: justify;
 }
+
+
 
 /* line 81, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .boton_1 {
@@ -181,8 +191,8 @@ header {
 
 /* line 176, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 footer {
-  background:#e3f2fd;
-  /*#CCCCCC;*/
+  background:#b5c4ce;/* #919aa1;
+  #CCCCCC;*/
   color: rgb(118, 120, 121);
  font-weight: bold;
   clear: both;
@@ -321,6 +331,11 @@ ul li a {
   font-family: sans-serif;
 }
 
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2c393d;
+}
+
 /* line 319, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 ul ul {
   /* si un ul es padre de otro ul entonces... esto seria el submenu */
@@ -377,6 +392,7 @@ div.container {
   img {
   width: 70%;
   height: auto;
+   
   }
 /* line 369, ../../../Google Drive/code/6ta sass -GuarderiaCanina - Lorena Robles - copia/5ta transformaciones -GuarderiaCanina - Lorena Robles - copia/sass/probandocss.scss */
 .cont_logo {
@@ -425,13 +441,27 @@ HTML CSSResult
 
 
 .formulario1 {
-  background-color: lightblue ;
-  margin: 0 auto;
-  width : 600px;
+  background-color: rgb(252, 33, 223) ;
+  width:200%;
+  height: auto;
+    /*overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 auto;
+  margin: 0 auto;*/
+
+  
+
 padding:10px;
 border-radius: 30px;
 
 }
+
+textarea {	
+  /*-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;	*/
+  width: 100%;
+  }
 
 
 
@@ -441,4 +471,93 @@ border-radius: 30px;
     overflow-y: auto;
     _overflow: auto;
     margin: 0 0 1em;
+}
+
+
+
+
+
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width: auto;
+	height:auto;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;		;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:horizontal ;
+	display:block;
+}
+
+
+
+
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(141, 75, 75);
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /*float: right;*/
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f5f9fc;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
